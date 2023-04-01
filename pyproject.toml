@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "streamlit-template"
+version = "0.0.1"
+description = "Basic Streamlit template"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "3.11.2"
+streamlit = "^1.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
