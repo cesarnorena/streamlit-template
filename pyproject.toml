@@ -7,7 +7,7 @@ readme = "README.md"
 packages = []
 
 [tool.poetry.dependencies]
-python = "3.11.2"
+python = "^3.11"
 streamlit = "^1.20.0"
 
 [build-system]
